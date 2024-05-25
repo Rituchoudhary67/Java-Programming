@@ -1,0 +1,115 @@
+Day 2
+
+One Compiler link :- https://onecompiler.com/java/42da73f4y
+h.w problem link :- https://onecompiler.com/java/42dd9d4x5
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      
+    // // Day 2  
+    //   System.out.println("Hello, World!");
+    //   System.out.print("Hello Ritu\n"); 
+    //   System.out.println("Hello Ritu \nLearning Java From Apni Kaksha"); 
+    //   System.out.println("Hello Ritu You are Best");
+      
+    // /* Print the pattern *
+    //                       **
+    //                       ***
+    //                       ****
+    // */
+    // // Method 1
+      
+    // System.out.println("*");
+    // System.out.println("**");
+    // System.out.println("***");
+    // System.out.println("****");
+ 
+    // // Method 2
+    // System.out.println("*\n**\n***\n****");
+ 
+    // // Variables 
+    //   String name = "Ritu" ;
+    //   int age = 22 ;
+    //   double price = 34.78;
+    //   System.out.println(name);
+      
+    //   int a = 10;
+    //   int b = 5;
+    //   int sum = a + b;
+    //   System.out.println(sum);
+      
+    //   int diff = b -a;
+    //   System.out.println(diff);
+      
+    //   int multi = a * b ;
+    //   System.out.println(multi);
+      
+      // To Calculate a x b / a - b;
+      
+      // int solution = (a * b) / (a - b);
+      // System.out.println(solution);
+      
+      // Scanner sc = new Scanner(System.in);
+      // String book = sc.nextLine();
+      // System.out.println(book);
+      
+      // Take a int from user x and y and print theri sum
+      
+      Scanner sca = new Scanner(System.in);
+      int x = sca.nextInt();
+      int y = sca.nextInt();
+      
+      int SumX = x + y ;
+      System.out.println(SumX);
+
+ // Day 2 :- H.W
+      // 1] Try to declare meaningful variables of each type 
+      //   E.g - a variable named age should be a numeric type (int or 
+            // float)
+      //   not byte
+      
+        
+      // Problem 1] solution 
+      Scanner sc = new Scanner(System.in);
+      // int age = sc.nextInt();
+      // float num = sc.nextInt();
+      // double dob = sc.nextInt();
+      // System.out.println(age);
+      // System.out.println(num);
+      // System.out.println(dob);
+      
+      // Problem 2] solution
+      // 2] Make a program that takes the radius of a circle as input 
+      // calculate its radius and area and prints it as output to the user.
+        
+    
+      // float radius = sc.nextInt();
+      // System.out.println("Radius of cirlce is " + radius);
+      // float area = (27/7) * (radius * radius) ;
+      // System.out.println("Area of circle is " + area);
+      
+      
+      // Problem 3] Solution  
+      // 3] Make a program that prints the table of a number that is input
+      // by user. (Hint- you will have to write 10 lines of code)  
+      
+      int number = sc.nextInt();
+      System.out.println("Table of " + number);
+      System.out.println( number +" x 1  = " + number);
+      System.out.println( number + " x 2  = " + number * 2);
+      System.out.println( number + " x 3  = " + number * 3);
+      System.out.println( number + " x 4  = " + number * 4);
+      System.out.println( number + " x 5  = " + number * 5);
+      System.out.println( number + " x 6  = " + number * 6);
+      System.out.println( number + " x 7  = " + number * 7);
+      System.out.println( number + " x 8  = " + number * 8);
+      System.out.println( number + " x 9  = " + number * 9);
+      System.out.println( number + " x 10 = " + number * 10);
+        
+        
+  }
+}
+
+
