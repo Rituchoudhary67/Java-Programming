@@ -1,0 +1,178 @@
+Day 3 :- Conditional Statements
+code link :-https://onecompiler.com/java/42dg9tbuw
+h.w code link :- https://onecompiler.com/java/42dgej99p
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      System.out.println("Hello, World!");
+      
+    /*      Day 3 :- Conditional Statement 
+            1] if,else 2] else if 3] switch 4] break
+    */
+    // Write a program to take input from user their age and print if user is 
+    // greater than 18 print Adult else print not Adult 
+      Scanner sc = new Scanner(System.in);
+      
+      
+      // int age = sc.nextInt();
+      // System.out.println(age + " is the age of user");
+      // if(age >= 18 ) {
+      //   System.out.println("Adult");
+      // } else {
+      //   System.out.println("Not Adult");
+      // }   
+      
+      
+      // Problem 2 
+      // Write a program to check the given number is even or odd
+      
+      // int number = sc.nextInt();
+      // System.out.println(number);
+      // if(number % 2 == 0){
+      //   System.out.println(number + " is Even number");
+      // } else {
+      //   System.out.println(number + " is Odd number");
+      // }
+      
+      
+      // Problem 3
+      // Make a program that take two number from user and check some 
+      // cond a = b print equal ; a > b print a is greater ;
+      // a < b print b is greater
+      
+      // int num1 = sc.nextInt();
+      // int num2 = sc.nextInt();
+      // System.out.println(num1);
+      // System.out.println(num2);
+      // if( num1 == num2 ){
+      //   System.out.println(num1 + " is Equal to " + num2);
+      // } else if ( num1 > num2) {
+      //   System.out.println(num1 + " is Greater than " + num2);
+      // } else {
+      //   System.out.println(num2 + " is Greater than " + num1);
+      // }
+      
+      // Problem 4
+      // If user enter number 1 --> Hello ; 2--> Namaste ; 3--> Bonjour
+      
+      int button = sc.nextInt();
+      System.out.println(button);
+      // if (button == 1) {
+      //   System.out.println("Hello");  
+      // } else if (button == 2) {
+      //   System.out.println("Namaste");
+      // } else if (button == 3) {
+      //   System.out.println("Bonjour");
+      // } else {
+      //   System.out.println("Please Enter number between 1,2 & 3");
+      // }
+      
+      switch(button) {
+        case 1 : System.out.println("Hello");
+        break;
+        case 2 : System.out.println("Namaste");
+        break;
+        case 3 : System.out.println("Bonjour");
+        break;
+        default : System.out.println("Please Enter number between 1,2 & 3");
+      }
+
+ // Day 3: H.W Problem
+      // 1] Make a calculator.Take 2 number ( a & b) from user and an
+      //operation as follows : 1] + [Addtion] a + b
+      //             2] - [Substraction] a - b
+      //             3] * [Multiplication] a * b  
+      //             4] / [Division] a / b
+      //             5] % [Modulo or remainder] a % b
+      // Calculate th result according to the operation given and display 
+      //it to the user
+      
+      Scanner sc = new Scanner(System.in);
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      int number = sc.nextInt();
+      System.out.println("a is " + a + " and b is " + b);
+      // System.out.println(number);
+      
+      switch(number) {
+        case 1 : System.out.println("Addation of a and b is " + (a + b));
+        break;
+        case 2 : System.out.println("Substraction of a and b is " + (a - b));
+        break;
+        case 3 : System.out.println("Multiplication of a and b is " + (a * b));
+        break;
+        case 4 : if (b == 0 ) {
+                        System.out.println("Inavalid division");
+                    } else {
+                       System.out.println("Division of a and b is " + (a / b));
+                    }
+        break;
+        case 5 : if (b == 0 ) {
+                        System.out.println("Inavalid value of b");
+                    } else {
+                        System.out.println("Modulo of a and b is " + (a % b));
+                    } 
+        break;
+        default : System.out.println("Please enter the operation number between 1 to 5");
+      }
+      
+
+   
+// 2] Ask the user to enter the number of the month & print the name of the 
+//   month . For eg - For 1 print January, 2 print February and so on
+      
+      
+      int month = sc.nextInt();
+      switch(month) {
+        case 1 : System.out.println("January");
+        break;
+        case 2 : System.out.println("February");
+        break;
+        case 3 : System.out.println("March");
+        break;
+        case 4 : System.out.println("April");
+        break;
+        case 5 : System.out.println("May");
+        break;
+        case 6 : System.out.println("June");
+        break;
+        case 7 : System.out.println("July");
+        break;
+        case 8 : System.out.println("August");
+        break;
+        case 9 : System.out.println("September");
+        break;
+        case 10 : System.out.println("Octomber");
+        break;
+        case 11 : System.out.println("November");
+        break;
+        case 12 : System.out.println("December");
+        break;
+        default : System.out.println("Please enter the number between 1 to 12");
+        
+      }
+      
+      
+            // h.w problem is completed 
+            // keep learning and growing all the best ritu 
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+    
+  }
+}
