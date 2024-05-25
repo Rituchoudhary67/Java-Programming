@@ -1,0 +1,118 @@
+Day 4 :- Loops - for,while,do-while
+code link :-https://onecompiler.com/java/42dk26sw4
+h.w code link :- https://onecompiler.com/java/42dkmhhae
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+    // for( int counter = 0; counter < 3; counter = counter + 1) {
+    //     System.out.println("Hello, World!");
+    // }
+    // Day 4 : Loops 1] for loop 2] while loop 3] do while
+    
+    // Problem 1] print the number from 0 to 10 
+    
+    // for loop 
+    // for (int num = 0 ; num < 11 ; num = num + 1 ){
+    //   System.out.print(num + " ");
+    // }
+    
+    // while loop
+    // int i = 0 ;
+    // while( i<11) {
+    //   System.out.print(i + " ");
+    //   i++;
+    // }
+    
+    // do while loop
+    // int i = 0;
+    // do {
+    //   System.out.print(i + " ");
+    //   i++;
+    // } while( i < 11);
+    
+    
+    // Problem 2]
+    // print the sum of first n natural number 
+    // eg :- n = 4  \\ 1 + 2 + 3 + 4 = 10
+    Scanner sc = new Scanner(System.in);
+    // int n = sc.nextInt();
+    // int sum = 0;
+    // for (int i = 1; i <= n; i++) { 
+    //   sum = sum + i ;
+    // }
+    // System.out.print(sum);
+    
+    // Problem 3
+    // print the table of a number input by user .
+    int number = sc.nextInt();
+    // int sum = 0;
+    for (int i = 1; i <= 10; i++) {
+      // sum = number * i ; 
+      System.out.println(number * i);
+    }
+
+// Day 4 : H.W
+      // Problem 1] Print all even number till n .
+      Scanner sc = new Scanner(System.in);
+      
+      // int n = sc.nextInt();
+      // // System.out.println(n);
+      // if ( n == 0 || n == 1) {
+      //   System.out.println("Enter number above 1");
+      // }
+      // for (int i = 2; i <= n; i++) {
+      //   if (i % 2 == 0) {
+      //     System.out.println(i);
+      //   } 
+      // }
+      
+      // Problem 2] Run and analze what happens.try to think of the 
+      // reason for the output produced
+      // for( ; ; ) {
+      //   System.out.println("Hello");
+      // }
+      
+      // In this problem we haven't initilize any variable and their is no 
+      // termination condition that why code is runing until memory is full
+  
+      
+      // problem 3] Make a menu driven program. the user can enter 2 number ,
+      // either 1 or 0 .
+      // if the user enters 1 then keep taking input from the user for a student's 
+      // marks(out of 100).
+      // if they enters 0 then stop.
+      // if he/she scores: Marks >=90 -> Print "this is good"
+      // 89 >= Marks >= 60 -> print "this is  also good"
+      // 59 >= marks >= 0 -> print "this is good as well"
+      
+      
+      // int num = sc.nextInt();
+      
+      // if (num == 1) {
+      //   int marks = sc.nextInt();
+      //   if (marks >= 90) {
+      //     System.out.println("This is Good");
+      //   } else if (89 >= marks && marks >= 60) {
+      //     System.out.println("This is also Good");
+      //   } else {
+      //     System.out.println("This is good as well");
+      //   }
+      // } else if (num == 0) {
+      //   System.out.println("Stop");
+      // } else {
+      //   System.out.println("Enter number between 0 and 1");
+      // }
+    
+    
+    // problem 4] Print if a number is prime or not (input n from user) 
+    
+    
+    
+    
+    
+    
+    
+  }
+}
