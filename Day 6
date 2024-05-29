@@ -1,1 +1,203 @@
+Day 6 : Advance que of patterns 
+code link :- https://onecompiler.com/java/42enf3umb
+h.w code link :-
 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+    // Day 6 :- Advance que of Patterns 
+    // print 1] 
+    // *      *
+    // **    **
+    // ***  ***
+    // ********
+    // ********
+    // ***  ***
+    // **    **
+    // *      *
+    
+    
+    // int n = 4;
+    // // upper half 
+    // for (int i = 1; i<=n; i++) {
+    //   // 1st part 
+    //   for (int j = 1; j<=i; j++) {
+    //     System.out.print("*");
+    //   }
+      
+    //   // for spaces 
+    //   int spaces = 2 * (n-i);
+    //   for (int j = 1; j<= spaces ; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   //2nd part 
+    //   for (int j = 1; j<=i; j++) {
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+    // }
+    
+    
+    
+    // //lower half
+    // for (int i = n; i>=1; i--) {
+    //   // 1st part 
+    //   for (int j = 1; j<=i; j++) {
+    //     System.out.print("*");
+    //   }
+      
+    //   // for spaces 
+    //   int spaces = 2 * (n-i);
+    //   for (int j = 1; j<= spaces ; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   //2nd part 
+    //   for (int j = 1; j<=i; j++) {
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+    // }
+    
+    
+    // 2] print
+//         *****
+//       *****
+//     *****
+//   *****
+// *****
+
+
+    // int n = 5;
+    
+    // // outer loop 
+    // for (int i = 1; i<=n ; i++) {
+      
+    //   // inner loop 
+    //   // for spaces 
+    //   int spaces = (n -i);
+    //   for (int j = 1; j<= spaces; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   // for star 
+    //   for (int j = 1; j<=n; j++) {
+    //     System.out.print("*");
+    //   }
+    //   System.out.println("");
+    // }
+    
+    
+    // 3] print 
+      // 1 
+  //    2 2 
+  //   3 3 3 
+  //  4 4 4 4 
+  // 5 5 5 5 5 
+    
+    
+    
+    
+    
+    // int n = 5;
+    
+    // // for outer loop 
+    // for(int i = 1; i<=n; i++) {
+      
+    //   // for spaces 
+    //   for (int j = 1; j<= n-i; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   // for number -- row no times 
+    //   for (int j = 1; j<=i; j++) {
+    //     System.out.print(i + " ");
+    //   }
+    //   System.out.println();
+    // }
+    
+    
+    // 4] print
+      //     1
+      //    212
+      //   32123
+      //  4321234
+      // 543212345
+    
+    // int n = 5;
+    
+    // // outer loop 
+    // for(int i = 1; i<=n ; i++) {
+      
+    //   // for spaces 
+    //   for (int j = 1; j<= n - i; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   // for 1st half number 
+    //   for(int j = i; j>=1; j--) {
+    //     System.out.print(j);
+    //   }
+      
+    //   //2nd half no
+    //   for(int j = 2; j<=i; j++) {
+    //     System.out.print(j);
+    //   }
+    //   System.out.println();
+    // }
+    
+    
+    // 5]print 
+  //    *
+  //   ***
+  //  *****
+  // *******
+  // *******
+  //  *****
+  //   ***
+  //    *
+    
+    
+    // int n = 4;
+    
+    // //upper half
+    // // outer loop 
+    // for(int i = 1; i<=n; i++) {
+      
+    //   // for spaces 
+    //   for(int j=1; j<= n-i; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   // for stars 
+    //   for(int j = 1; j<= 2*i-1; j++) {
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+      
+    // }
+    //   //lower half 
+    //   for(int i = n; i>=1; i--) {
+      
+    //   // for spaces 
+    //   for(int j=1; j<= n-i; j++) {
+    //     System.out.print(" ");
+    //   }
+      
+    //   // for stars 
+    //   for(int j = 1; j<= 2*i-1; j++) {
+    //     System.out.print("*");
+    //   }
+    //   System.out.println();
+      
+    // }
+    
+    
+    
+    
+    
+ 
+  }
+}
