@@ -114,9 +114,9 @@ public class Main {
       
 
       // 7] print Palindrome Triangular 
-      //   1
+      //    1
       //   212
-      // 32123
+      //  32123
       // 4321234
 
       int n = 4;
