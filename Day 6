@@ -496,7 +496,21 @@ public class Main {
         System.out.println();
       }
       
+        // 13] Reverse Right half pyramid
+      // * * * * * 
+      // * * * * 
+      // * * * 
+      // * * 
+      // * 
       
+      int n=5;
+      
+      for(int i=n; i>=1; i--) {
+        for(int j=1; j<=i; j++) {
+          System.out.print("* ");
+        }
+        System.out.println();
+      }
 
 
 
