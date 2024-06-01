@@ -4,7 +4,9 @@ H.W Problem
 1] Check Prime or not : https://onecompiler.com/java/42exm2sdv
 2] Check Even or not : https://onecompiler.com/java/42expsvhc
 3] Print a Table of n : https://onecompiler.com/java/42exq3r6f
-
+4] Read about Recursion :
+   The process in which a function calls itself directly or indirectly is called recursion and 
+   the corresponding function is called a recursive function. 
 
 A function is a block of code that performs a specific task.
 1] Why are functions used ?
