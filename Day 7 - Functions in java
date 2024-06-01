@@ -2,6 +2,7 @@ Day 7: Funtions in Java
 class code link : https://onecompiler.com/java/42ex87dag 
 H.W Problem 
 1] Check Prime or not : https://onecompiler.com/java/42exm2sdv
+2] Check Even or not : https://onecompiler.com/java/42expsvhc
 
 
 A function is a block of code that performs a specific task.
@@ -116,4 +117,26 @@ public class Main {
 }
 
 
+// 2] Make a function to check if a given number is even or not .
+
+
+import java.util.*;
+
+
+public class Function {
+  
+  public static void checkEven(int n) {
+    if ( n % 2 == 0) {
+      System.out.println("Even");
+    } else {
+      System.out.println("Not Even");
+    }
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    checkEven(n);
+  }
+}
   
