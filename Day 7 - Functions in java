@@ -1,6 +1,7 @@
 Day 7: Funtions in Java 
 class code link : https://onecompiler.com/java/42ex87dag 
 
+
 A function is a block of code that performs a specific task.
 1] Why are functions used ?
   a. if some functionality is performed at multiple places in software , then rether than writing the same code 
@@ -14,4 +15,72 @@ A function is a block of code that performs a specific task.
   c] void : means no return type(no need to write return in void fun)
   d] main fun : Is a special function as the computer starts renning the code from the beginning of the main fun.
                 It serves as the Entry point for the program.
+
+import java.util.*;
+
+public class Functions {
+  
+  // 1] Print a given name in Function ?
+    // public static void printMyName(String name) {
+    //   System.out.println(name);
+    //   return;
+    // }
+    
+    
+    // 2] Make a Function to add 2 Number and return sum .
+    
+    // public static int calculateSum(int a, int b) {
+    // int sum = a+ b;  
+    // return sum;  
+    // }
+    
+    // 3] Make a Function to multiply 2 Number and return the product
+    
+    // public static int multiplyNumbers(int a, int b) {
+    //   int multiply = a * b;
+    //   return multiply;
+    // }
+    
+    
+    // 4] Find the Factorial of a Number
+    // public static void printFactorial(int n) {
+    //   if (n < 0) {
+    //     System.out.println("Invalid Number");
+    //     return;
+    //   }
+    //   // loop 
+    //   int factorial = 1;
+    //   for(int i=n; i>=1; i--) {
+    //     factorial = factorial * i;
+    //   }
+    //   System.out.println("Factorial of a given Number is : " +  factorial);
+    //   return;
+    // }
+    
+    
+    public static void main (String[] args) {
+      /* code */
+      Scanner sc = new Scanner(System.in);
+      
+      // int n = sc.nextInt();
+      // printFactorial(n);
+      
+      // int a = sc.nextInt();
+      // int b = sc.nextInt();
+      
+      // int multiply = multiplyNumbers(a,b);
+      // System.out.println("Multiplicaton of Two numbres is : " + multiply);
+      
+      // int sum = calculateSum(a,b);
+      // System.out.println("sum of two number is : " + sum);
+      
+      // String name = sc.next();
+      // printMyName(name);   // call liya function ko 
+    }
+  
+  
+  
+}
+
+
   
