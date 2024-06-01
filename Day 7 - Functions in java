@@ -1,5 +1,7 @@
 Day 7: Funtions in Java 
 class code link : https://onecompiler.com/java/42ex87dag 
+H.W Problem 
+1] Check Prime or not : https://onecompiler.com/java/42exm2sdv
 
 
 A function is a block of code that performs a specific task.
@@ -76,10 +78,41 @@ public class Functions {
       
       // String name = sc.next();
       // printMyName(name);   // call liya function ko 
+    } 
+}
+
+
+H.W Question
+
+// 1] Make a function to check if a number is prime or not
+import java.util.*;
+
+public class Main {
+   public static void checkPrime(int n) {
+    if (n == 1 || n == 0 || n <0) {
+      System.out.println("Not prime");
+      return;
+    } else if (n == 2) {
+      System.out.println("Even Prime Number");
+      return;
     }
-  
-  
-  
+   int count = 2;
+      for (int i = 2; i<=n-1;i++) {
+        if(n % i == 0) {
+         count++;
+        } 
+      }
+      if (count >= 3) {
+        System.out.println("Not Prime");
+      } else {
+        System.out.println("Prime");
+      } 
+  }
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     checkPrime(n);
+  }
 }
 
 
