@@ -3,6 +3,7 @@ class code link : https://onecompiler.com/java/42ex87dag
 H.W Problem 
 1] Check Prime or not : https://onecompiler.com/java/42exm2sdv
 2] Check Even or not : https://onecompiler.com/java/42expsvhc
+3] Print a Table of n : https://onecompiler.com/java/42exq3r6f
 
 
 A function is a block of code that performs a specific task.
@@ -140,3 +141,27 @@ public class Function {
   }
 }
   
+
+// 3] Make a function to print the table of a given number n.
+
+import java.util.*;
+
+public class Function {
+  public static void printTable(int n) {
+    
+    if(n <=0 ) {
+      System.out.println("Invalid Number");
+      return;
+    }
+    
+    for(int i=1; i<=10; i++) {
+      System.out.println(n * i);
+    }
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc =  new Scanner(System.in);
+    int n = sc.nextInt();
+    printTable(n);
+  }
+}
