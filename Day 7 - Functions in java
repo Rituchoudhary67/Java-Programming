@@ -1,4 +1,17 @@
 Day 7: Funtions in Java 
-
 class code link : https://onecompiler.com/java/42ex87dag 
+
 A function is a block of code that performs a specific task.
+1] Why are functions used ?
+  a. if some functionality is performed at multiple places in software , then rether than writing the same code 
+     again and again , we create a function and call it everywhere. this helps reduce code redundancy.
+2] The Syntax for function :
+   return-type function_name (type arg1, type arg2,...) {
+     // operation 
+   }
+  a] return-type : variable that function return. ex: int. float, string,...
+  b] function_name : Anything except Keywords.
+  c] void : means no return type(no need to write return in void fun)
+  d] main fun : Is a special function as the computer starts renning the code from the beginning of the main fun.
+                It serves as the Entry point for the program.
+  
