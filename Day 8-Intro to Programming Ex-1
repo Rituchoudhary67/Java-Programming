@@ -105,3 +105,26 @@ public class function {
     
   }
 }
+
+// 5] Write a function that takes in age as input and returns if that person is eligible to 
+//    vote or not.
+
+import java.util.*;
+
+public class function {
+  
+  public static void eligibleToVote(int age) {
+    if (age > 18 ) {
+      System.out.println(age + " Year is Eligible to Vote");
+    } else {
+      System.out.println("Not Eligible to Vote");
+    }
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int age = sc.nextInt();
+    
+    eligibleToVote(age);
+  }
+}
