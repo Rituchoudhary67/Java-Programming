@@ -84,3 +84,23 @@ public class Function {
     checkGreater(a,b);
   }
 }
+
+
+//4] Write a function that takes in the radius as input and returns the circumference of a circle.
+import java.util.*;
+
+public class function {
+  
+  public static void calCircumference(float radius) {
+    float circumference = (22/7)*(radius*radius);
+    System.out.println(" Circumference of circle is : " + circumference);
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    float radius = sc.nextFloat();
+    
+    calCircumference(radius);
+    
+  }
+}
