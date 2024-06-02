@@ -11,6 +11,9 @@ code link : https://onecompiler.com/java/42f29cukm
 code link : https://onecompiler.com/java/42f2a28rn
 6] Write an Infinity loop using do while condition 
 code link : https://onecompiler.com/java/42f2b537f
+7] Write  program  to entry the number till the user wants and at the end it should display the count of positive ,
+negetive and zeros entered.
+code link : https://onecompiler.com/java/42f2g8ggb
 
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
@@ -142,5 +145,31 @@ public class Main {
      do {
        System.out.println("Hello World!");
      } while(n > 0);
+  }
+}
+
+
+
+// 7] Write  program  to entry the number till the user wants and at the end it should display 
+// the count of positive , negetive and zeros entered.
+import java.util.*;
+
+public class function {
+  
+  public static void checkIntegerType(int n) {
+    if (n == 0) {
+      System.out.println(n + " is Zero");
+    } else if (n < 0) {
+      System.out.println(n + " is a  Negative number");
+    } else {
+      System.out.println(n + " is a Positive number");
+    }
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    
+    checkIntegerType(n);
   }
 }
