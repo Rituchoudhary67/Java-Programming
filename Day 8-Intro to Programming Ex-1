@@ -9,6 +9,9 @@ code link : https://onecompiler.com/java/42f283ass
 code link : https://onecompiler.com/java/42f29cukm
 5] Write a function that takes in age as input and returns if that person is eligible to vote or not.
 code link : https://onecompiler.com/java/42f2a28rn
+6] Write an Infinity loop using do while condition 
+code link : https://onecompiler.com/java/42f2b537f
+
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
 import java.util.*;
@@ -126,5 +129,18 @@ public class function {
     int age = sc.nextInt();
     
     eligibleToVote(age);
+  }
+}
+
+
+// 6] Write an Infinity loop using do while condition 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      int n= 4;
+     do {
+       System.out.println("Hello World!");
+     } while(n > 0);
   }
 }
