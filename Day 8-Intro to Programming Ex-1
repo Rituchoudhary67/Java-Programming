@@ -1,6 +1,8 @@
 Java - Introduction to Programming
 1]  Enter 3 numbers from the user and make a function to print their average
 Code link : https://onecompiler.com/java/42f25gnf6
+2] Write a Function to print the sum of all odd numbers from 1 to n.
+code link : https://onecompiler.com/java/42f26h6kk
 
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
@@ -24,5 +26,32 @@ public class function {
       int c = sc.nextInt();
       
       findAverage(a,b,c);
+  }
+}
+
+// 2] Write a Function to print the sum of all odd numbers from 1 to n. 
+
+import java.util.*;
+
+public class Function {
+  
+  // created my own fun to calculate sum 
+  public static void sumOfOdd(int n) {
+    int sum = 0;
+    for(int i=1; i<=n; i++) {
+      if (i % 2 != 0) {
+        sum = sum + i;
+      }
+    }
+    System.out.println(sum);
+  }
+  
+  // main Function 
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    
+    // calling function 
+    sumOfOdd(n);
   }
 }
