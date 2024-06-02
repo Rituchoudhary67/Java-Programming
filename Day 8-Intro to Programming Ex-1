@@ -17,6 +17,8 @@ code link : https://onecompiler.com/java/42f2g8ggb
 8] Two number are entered by user, x and n. write a function to find the value of one number raised to the power 
    of another. i.e x^n.
 code link : https://onecompiler.com/java/42f2m4u9r
+9] Write a function that calculate the Greatest Common Divisor of 2 numbers.
+code link : https://onecompiler.com/java/42f2n6tdh
 
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
@@ -200,5 +202,30 @@ public class function {
     int n = sc.nextInt();
     
     calculatePower(x,n);
+  }
+}
+
+
+// 9] Write a function that calculate the Greatest Common Divisor of 2 numbers.
+import java.util.*;
+
+public class function {
+  
+  public static void greatestCommonDivisor(int a, int b) {
+    int gcf = 1;
+    for (int i=1; i<=a && i<=b; i++) {
+      if(a % i == 0 && b % i == 0) {
+       gcf = i;
+      }
+    }
+      System.out.println(gcf);
+}
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int a = sc.nextInt();
+    int b = sc.nextInt();
+    
+    greatestCommonDivisor(a,b);
   }
 }
