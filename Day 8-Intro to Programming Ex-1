@@ -19,6 +19,8 @@ code link : https://onecompiler.com/java/42f2g8ggb
 code link : https://onecompiler.com/java/42f2m4u9r
 9] Write a function that calculate the Greatest Common Divisor of 2 numbers.
 code link : https://onecompiler.com/java/42f2n6tdh
+10] write a program to print fibonacci series of n terms where n is input by user
+code link : https://onecompiler.com/java/42f2r63us
 
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
@@ -227,5 +229,31 @@ public class function {
     int b = sc.nextInt();
     
     greatestCommonDivisor(a,b);
+  }
+}
+
+
+
+// 10] write a program to print fibonacci series of n terms where n is input by user
+import java.util.*;
+
+public class function {
+  
+  public static void printFibonacii(int n) {
+    int num1 = 0; int num2 = 1;
+    for(int i=1; i<=n; i++) {
+      System.out.print(num1 + " ");
+      int num3 = num1 + num2;
+      num1 = num2;
+      num2 = num3;
+    }
+    
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    
+    printFibonacii(n);
   }
 }
