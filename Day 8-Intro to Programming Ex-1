@@ -14,6 +14,9 @@ code link : https://onecompiler.com/java/42f2b537f
 7] Write  program  to entry the number till the user wants and at the end it should display the count of positive ,
 negetive and zeros entered.
 code link : https://onecompiler.com/java/42f2g8ggb
+8] Two number are entered by user, x and n. write a function to find the value of one number raised to the power 
+   of another. i.e x^n.
+code link : https://onecompiler.com/java/42f2m4u9r
 
 
 // 1] Enter 3 numbers from the user and make a function to print their average 
@@ -171,5 +174,31 @@ public class function {
     int n = sc.nextInt();
     
     checkIntegerType(n);
+  }
+}
+
+
+// 8] Two number are entered by user, x and n. write a function to find the value of one number 
+// raised to the power of another. i.e x^n.
+import java.util.*;
+
+public class function {
+  
+  public static void calculatePower(int x, int n) {
+    int power = 1;
+    for (int i=1; i<=n; i++) {
+      power = power * x;
+    }
+    System.out.println(x + " to the power " + n + " is : " + power);
+
+  }
+  
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    
+    int x = sc.nextInt();
+    int n = sc.nextInt();
+    
+    calculatePower(x,n);
   }
 }
