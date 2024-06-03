@@ -106,7 +106,7 @@ import java.util.*;
 public class function {
   
   public static void calCircumference(float radius) {
-    float circumference = (22/7)*(radius*radius);
+    float circumference = 2 * (22/7)*(radius);
     System.out.println(" Circumference of circle is : " + circumference);
   }
   
