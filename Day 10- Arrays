@@ -12,3 +12,31 @@ marks[1] = 50;
 int[] marks = {34,56,78};
 
 3] Taking an array as an input and printing its elements.
+
+import java.util.*;
+
+public class Arrays {
+  
+  public static void main (String[] args) {
+    
+    Scanner sc = new Scanner(System.in);
+    int size = sc.nextInt();
+    int numbers[] = new int[size];
+  
+    //input of array items
+    for(int i=0; i<size; i++) {
+      numbers[i] = sc.nextInt();
+    }
+    
+    int x = sc.nextInt();
+    System.out.println("Number that will found in an array is : " + x);
+    
+    //output
+    for(int i=0; i<size; i++) {
+     if(numbers[i] == x) {
+       System.out.println(x + " found at index : " + i);
+     }
+    }
+
+  }
+}
