@@ -12,6 +12,7 @@ marks[1] = 50;
 int[] marks = {34,56,78};
 
 3] Taking an array as an input and printing its elements.
+Qs. Take an array as input from the user. search for a given number x and print the index at which it occurs.
 
 import java.util.*;
 
