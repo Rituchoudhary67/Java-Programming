@@ -1,3 +1,14 @@
 Day 10 - Arrays in Java
 code link : https://onecompiler.com/java/42f8bj6s3
 h.w code link : 
+
+Arrays in java are like a list of elements of the same type. 
+1] creating an array(method 1)
+int[] marks = new int[1];
+marks[0] = 45;
+marks[1] = 50;
+
+2] creating an array (method 2)
+int[] marks = {34,56,78};
+
+3] Taking an array as an input and printing its elements.
