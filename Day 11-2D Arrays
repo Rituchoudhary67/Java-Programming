@@ -1,1 +1,7 @@
+Day 11 - 2D Arrays in java
+it is similar to martix(ixj)
+
+Syntax : type[][] arrayName = new type[rows][columns];
+ ex :    int[][] num = new int[i][j];
+
 
