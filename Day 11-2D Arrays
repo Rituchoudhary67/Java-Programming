@@ -4,8 +4,11 @@ it is similar to martix(ixj)
 Syntax : type[][] arrayName = new type[rows][columns];
  ex :    int[][] num = new int[i][j];
 
- 1] Taking a matrix as an input and printing its element.
- code link : https://onecompiler.com/java/42fbfc59s
+1] Taking a matrix as an input and printing its element.
+code link : https://onecompiler.com/java/42fbfc59s
+
+2] Take a matrix as input from user. search for a given number x and print the indices at which it occurs.
+code link : https://onecompiler.com/java/42fbhp2u8
 
 
 // Day 11-2D Arrays
