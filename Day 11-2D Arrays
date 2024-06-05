@@ -44,3 +44,48 @@ public class Arrays2D {
   }
 }
 
+
+
+// Qs. Take a matrix as input from user. search for a given number x and print the indices 
+    // at which it occurs .
+import java.util.*;
+
+public class Array2D {
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+    
+    System.out.println("Rows are : " + rows + " ;   Columns are : " + cols);
+    
+    int[][] matrix = new int[rows][cols];
+    
+    
+    // input of array items 
+    // outer loop for rows 
+    for(int i=0; i<rows; i++) {
+      // inner loop for Columns
+      for(int j=0; j<cols; j++) {
+        matrix[i][j] = sc.nextInt();
+      }
+    }
+    
+    int searchNum = sc.nextInt();
+    System.out.println("Search number is : " + searchNum);
+    
+    
+    
+    // output of loop 
+    for(int i=0; i<rows; i++) {
+      for(int j=0; j<cols; j++) {
+        System.out.print(matrix[i][j] + " ");  
+        if (matrix[i][j] == searchNum) {
+          System.out.print("    Search number is found at location ( " + i +" , " + j + " )");
+        }
+      }
+        System.out.println();
+    }
+    
+    
+  }
+}
