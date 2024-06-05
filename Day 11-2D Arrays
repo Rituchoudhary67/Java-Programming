@@ -4,4 +4,40 @@ it is similar to martix(ixj)
 Syntax : type[][] arrayName = new type[rows][columns];
  ex :    int[][] num = new int[i][j];
 
+ 1] Taking a matrix as an input and printing its element.
+ code link : https://onecompiler.com/java/42fbfc59s
+
+
+// Day 11-2D Arrays
+// 1] Taking a matrix as an input and printing its element.
+import java.util.*;
+
+public class Arrays2D {
+  public static void main (String[] args) {
+    Scanner sc = new Scanner(System.in);
+    int rows = sc.nextInt();
+    int cols = sc.nextInt();
+    System.out.println("Rowsn Number are : " + rows);
+    System.out.println("Columns Number are : " + cols);
+    int[][] number = new int[rows][cols]; 
+    
+    // input 
+    // outer loop for row 
+    for(int i=0; i<rows; i++) {
+      // inner loop for Columns
+      for(int j=0; j<cols; j++) {
+        number[i][j] = sc.nextInt();
+      }
+    }
+    
+    // output loop 
+    for(int i=0; i<rows; i++) {
+      for(int j=0; j<cols; j++) {
+        System.out.print(number[i][j] + " ");
+      }
+      System.out.println();
+    }
+    
+  }
+}
 
