@@ -89,3 +89,9 @@ public class Array2D {
     
   }
 }
+
+************************  HomeWork Problem  *****************************
+1] Print the sprial order matrix as output for a given matrix of numbers.
+    1   5   7   9  10  11
+    6   10  12  13 20   21
+    9 25 29 30 
