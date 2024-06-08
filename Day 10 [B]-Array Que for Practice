@@ -1,3 +1,4 @@
+code link : https://onecompiler.com/challenges/3xvdvhe77/arrays-basics-set-1
 1] Take 10 elements in an array and find the sum of all elements.
 
 import java.util.*;
