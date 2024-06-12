@@ -23,14 +23,25 @@ public class Strings {
     String fullName = firstName + " " + secondName ;
     System.out.println(fullName);
 
-    // Print length of String
+    // Print length of String --- .length()
     String firstName = "Ritu" ;
     String secondName = "Choudhary";
     
     String fullName = firstName + " " + secondName ;
     System.out.println(fullName.length());
     
+
+    // Access characters of a string  -- charAt(position)
+    String firstName = "Ritu" ;
+    String secondName = "Choudhary";
     
+    String fullName = firstName + " " + secondName ;
+    
+    for (int i=0 ; i<= fullName.length() ; i++) {
+      System.out.println(fullName.charAt(i));
+    }
+
+
     
   }
 }
