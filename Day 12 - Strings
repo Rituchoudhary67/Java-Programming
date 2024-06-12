@@ -1,3 +1,21 @@
 Day 12 - String in Java
 code link : https://onecompiler.com/java/42fwrs384
 
+// Day 12 - String in java 
+import java.util.*;
+
+public class Strings {
+    public static void main(String[] args) {
+    // Declaration 
+    String name = "Ritu";
+    
+    // Taking input from user 
+    Scanner sc = new Scanner(System.in);
+    String fullName = sc.nextLine();
+    // note : sc.next() ---> is used for taking single word input
+              // sc.nextLine() ---> is used for taking multiple word input 
+    System.out.println(fullName);
+    
+    
+  }
+}
