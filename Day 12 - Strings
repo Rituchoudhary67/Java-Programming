@@ -15,6 +15,13 @@ public class Strings {
     // note : sc.next() ---> is used for taking single word input
               // sc.nextLine() ---> is used for taking multiple word input 
     System.out.println(fullName);
+
+   // concatention (Joining 2 Strings)
+    String firstName = "Ritu" ;
+    String secondName = "Choudhary";
+    
+    String fullName = firstName + " " + secondName ;
+    System.out.println(fullName);
     
     
   }
