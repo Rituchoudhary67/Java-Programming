@@ -22,6 +22,14 @@ public class Strings {
     
     String fullName = firstName + " " + secondName ;
     System.out.println(fullName);
+
+    // Print length of String
+    String firstName = "Ritu" ;
+    String secondName = "Choudhary";
+    
+    String fullName = firstName + " " + secondName ;
+    System.out.println(fullName.length());
+    
     
     
   }
