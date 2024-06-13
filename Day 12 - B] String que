@@ -25,3 +25,20 @@ public class Main {
       System.out.println(name1 + " " + name2);
   }
 }
+
+3] Take two strings from the input and print whether or not the strings are equal
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     String name1 = sc.nextLine();
+     String name2 = sc.nextLine();
+     if (name1.equals(name2)) {
+       System.out.println("true");
+     } else {
+       System.out.println("false");
+     }
+  }
+}
