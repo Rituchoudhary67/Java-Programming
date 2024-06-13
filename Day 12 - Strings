@@ -17,14 +17,14 @@ public class Strings {
               // sc.nextLine() ---> is used for taking multiple word input 
     System.out.println(fullName);
 
-   // concatention (Joining 2 Strings)
+   // 1] concatention (Joining 2 Strings)
     String firstName = "Ritu" ;
     String secondName = "Choudhary";
     
     String fullName = firstName + " " + secondName ;
     System.out.println(fullName);
 
-    // Print length of String --- .length()
+    // 2] Print length of String --- .length()
     String firstName = "Ritu" ;
     String secondName = "Choudhary";
     
@@ -32,7 +32,7 @@ public class Strings {
     System.out.println(fullName.length());
     
 
-    // Access characters of a string  -- charAt(position)
+    //  3] Access characters of a string  -- charAt(position)
     String firstName = "Ritu" ;
     String secondName = "Choudhary";
     
@@ -44,7 +44,7 @@ public class Strings {
 
 
    
-// 1] Comparing 2 String
+// 4] Comparing 2 String
 import java.util.*;
 
 public class Main {
@@ -77,11 +77,18 @@ public class Main {
 }
 
 
-  // Substring ---- name.substring(starting,ending)
+  // 5] Substring ---- name.substring(starting,ending)
   // The Substring of a sting is a subpart of it.
   
   String name = "Tanu Nath Dalal";
   System.out.println(name.substring(0,4));
+
+
+// 4] parseInt method of integer class
+    
+    String str = "123";
+    int num = Integer.parseInt(str);
+    System.out.println(num);
 
     
   }
