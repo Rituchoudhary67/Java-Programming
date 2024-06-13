@@ -84,11 +84,16 @@ public class Main {
   System.out.println(name.substring(0,4));
 
 
-// 4] parseInt method of integer class
+// 6] parseInt method of integer class
     
     String str = "123";
     int num = Integer.parseInt(str);
     System.out.println(num);
+
+  // 7] toString method of string class 
+    int num = 123;
+    String str = Integer.toString(num);
+    System.out.println(str);
 
     
   }
