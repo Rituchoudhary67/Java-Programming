@@ -72,11 +72,16 @@ public class Main {
       } else {
         System.out.println("Both are not Equal");
       }
-      
-      
-      
+           
   }
 }
+
+
+  // Substring ---- name.substring(starting,ending)
+  // The Substring of a sting is a subpart of it.
+  
+  String name = "Tanu Nath Dalal";
+  System.out.println(name.substring(0,4));
 
     
   }
