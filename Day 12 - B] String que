@@ -1,3 +1,4 @@
+code link : https://onecompiler.com/challenges/3w8xvfbtb/strings-challenge
 String Question for practice 
 
 1] Take a string from the input and print the length of that string 
@@ -9,5 +10,18 @@ public class Main {
      Scanner sc = new Scanner(System.in);
      String name = sc.nextLine();
      System.out.println(name.length());
+  }
+}
+
+2] Take two strings from the input, join those two strings with a space and print the new string
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String name1 = sc.nextLine();
+      String name2 = sc.nextLine();
+      System.out.println(name1 + " " + name2);
   }
 }
