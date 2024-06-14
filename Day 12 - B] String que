@@ -80,3 +80,23 @@ public class Main {
     System.out.println(first + "" + last);
   }
 }
+
+10] Take two strings from the input and check the lengths of those strings equal or not
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String name1 = sc.nextLine();
+      String name2 = sc.nextLine();
+      int len1 = name1.length();
+      int len2 = name2.length();
+      
+      if(len1 == len2) {
+        System.out.println("true");
+      } else {
+        System.out.println("false");
+      }
+  }
+}
