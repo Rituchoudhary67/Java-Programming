@@ -2,7 +2,8 @@ Day 12 - String in Java
 code link : https://onecompiler.com/java/42fwrs384
 1] Compare two string : https://onecompiler.com/java/42fzx4qzg
 H.w problems
-
+1] Take an array of Strings input from the user and find the cumulative(combined) length of all those strings. 
+code link : https://onecompiler.com/java/42garfh4e
 
 // Day 12 - String in java 
 import java.util.*;
