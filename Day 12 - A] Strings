@@ -102,7 +102,7 @@ public class Main {
   }
 }
 
-******************************** H.W Problem ******************************************
+**************************************** H.W Problem ******************************************
 // 1] Take an array of Strings input from the user and find the cumulative(combined) length of all those strings. 
 
 import java.util.*;
