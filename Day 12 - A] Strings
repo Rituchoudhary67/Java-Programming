@@ -7,6 +7,9 @@ code link : https://onecompiler.com/java/42garfh4e
 2] Input a string from the user. create a new string called result in which you will replace the letter 'e' in 
    the original string with letter 'i'.
 code link : https://onecompiler.com/java/42gsq9m7s
+3] Input an email from the user. you have to create a username from the email by deleteing the part that come
+    after '@'. Display that username to the user.
+code link : https://onecompiler.com/java/42gsrns9r
 
 
 // Day 12 - String in java 
