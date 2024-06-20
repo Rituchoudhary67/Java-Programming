@@ -152,3 +152,30 @@ public class Main {
      System.out.println(result);
   }
 }
+
+
+// 3] Input an email from the user. you have to create a username from the email by deleteing
+// the part that come after '@'. Display that username to the user.
+// Example :
+// email = "abc@gmail.com";
+// username = "abc";
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String email = sc.next();
+      String userName = "";
+      
+      for(int i=0; i<email.length(); i++) {
+        if(email.charAt(i) == '@') {
+          break;
+        } else {
+          userName += email.charAt(i);
+        }
+      }
+      System.out.println(userName);
+  }
+}
+
+
