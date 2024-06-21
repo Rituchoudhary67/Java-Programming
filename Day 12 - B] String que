@@ -124,3 +124,11 @@ public class Main {
       System.out.println(result);
   }
 }
+
+16] Take a string from the input and remove all occurrences of given char from that string
+
+Input:
+abcdefghabcdefgh
+b
+Output:
+acdefghacdefgh
