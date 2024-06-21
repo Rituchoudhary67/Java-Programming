@@ -100,3 +100,7 @@ public class Main {
       }
   }
 }
+
+13] Take a string from the input and remove the vowels and print it
+Input: Harry
+Output: Hrry
