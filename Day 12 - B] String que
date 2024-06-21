@@ -104,3 +104,23 @@ public class Main {
 13] Take a string from the input and remove the vowels and print it
 Input: Harry
 Output: Hrry
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String result = "";
+      String name = sc.next();
+      for(int i=0; i<name.length(); i++) {
+        char charWord = name.charAt(i);
+        if(charWord == 'a' || charWord == 'e' ||charWord == 'i' ||
+         charWord == 'o' || charWord == 'u') {
+          result += "";
+        } else {
+          result += charWord;
+        }
+      }
+      System.out.println(result);
+  }
+}
