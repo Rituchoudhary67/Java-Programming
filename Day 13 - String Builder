@@ -7,8 +7,20 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
       
-      // Declaration 
+ // 1] Declaration 
       StringBuilder sb = new StringBuilder("Web developer");
       System.out.println(sb);
+
+ // 2] Get A Character from Index 
+      StringBuilder sb = new StringBuilder("Ritu");
+      //set char
+      System.out.println(sb.charAt(0));
+
+  // 3] Insert A Character at some Index
+      StringBuilder sb = new StringBuilder("Tony");
+      // Insert char
+      sb.insert(0,"S");
+      System.out.println(sb);
+      
   }
 }
