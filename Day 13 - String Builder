@@ -21,6 +21,12 @@ public class Main {
       // Insert char
       sb.insert(0,"S");
       System.out.println(sb);
+
+// 4] Delete char at some Index
+      StringBuilder sb = new StringBuilder("Tony");
+      
+      sb.delete(0,1);  // first is starting index of deleting and last is not inculded.
+      System.out.println(sb);
       
   }
 }
