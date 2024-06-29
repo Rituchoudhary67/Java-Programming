@@ -174,3 +174,25 @@ public class Main {
       }
   }
 }
+
+11] Read a string input, print each of its characters in a new line.
+Example : 
+Input : Ritu
+Output : R
+         i
+         t
+         u
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      
+      String input = sc.nextLine();
+      
+      for(int i=0; i<input.length(); i++) {
+        System.out.println(input.charAt(i));
+      }
+  }
+}
