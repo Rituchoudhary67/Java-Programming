@@ -240,3 +240,15 @@ public class Main {
       System.out.println(count);
   }
 }
+
+14] Read an input string and return the same string after converting it into upper case.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      System.out.println(str.toUpperCase());
+  }
+}
