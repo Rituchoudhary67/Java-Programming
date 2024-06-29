@@ -196,3 +196,26 @@ public class Main {
       }
   }
 }
+
+12] Read a string input and print all the vowels from the input string.
+Example : 
+Input : ritu
+Output : i
+         u
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      
+      for(int i=0; i<str.length(); i++) {
+           char charVar = str.charAt(i);
+        if(charVar == 'a' || charVar == 'e' || charVar == 'i' || charVar == 'o'
+          || charVar == 'u') {
+          System.out.println(str.charAt(i));
+        }
+      }
+  }
+}
