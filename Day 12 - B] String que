@@ -81,7 +81,7 @@ public class Main {
   }
 }
 
-10] Take two strings from the input and check the lengths of those strings equal or not
+7] Take two strings from the input and check the lengths of those strings equal or not
 
 import java.util.*;
 
@@ -101,7 +101,7 @@ public class Main {
   }
 }
 
-13] Take a string from the input and remove the vowels and print it
+8] Take a string from the input and remove the vowels and print it
 Input: Harry
 Output: Hrry
 
@@ -125,7 +125,7 @@ public class Main {
   }
 }
 
-16] Take a string from the input and remove all occurrences of given char from that string
+9] Take a string from the input and remove all occurrences of given char from that string
 
 Input:
 abcdefghabcdefgh
@@ -150,5 +150,27 @@ public class Main {
        }
       }
       System.out.println(result);
+  }
+}
+
+10] Read the input string, print "YES" if the string length is greater than 10. If not, print "NO"
+
+Example:
+Input: ALOHAMORA
+Output: NO
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      
+      String input = sc.next();
+      int length = input.length();
+      if(length > 10) {
+        System.out.println("YES");
+      } else {
+        System.out.println("NO");
+      }
   }
 }
