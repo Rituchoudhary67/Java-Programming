@@ -219,3 +219,24 @@ public class Main {
       }
   }
 }
+
+13] Read an input string and print the count of vowels in the input.
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      int count = 0;
+      
+      for(int i=0; i<str.length(); i++) {
+        char charStr = str.charAt(i);
+        if(charStr == 'a' || charStr == 'e' || charStr == 'i' ||
+         charStr == 'o' || charStr == 'u') {
+           count++ ;
+         }
+      }
+      System.out.println(count);
+  }
+}
