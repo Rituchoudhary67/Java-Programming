@@ -404,3 +404,21 @@ public class Main {
       // System.out.println(reverseStr);
   }
 }
+
+22] Take a string from the input and split the strings with comma. Print the new strings one per line
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.next();
+      for(int i=0; i<str.length(); i++) {
+        if(str.charAt(i) == ',') {
+          System.out.println();
+        } else {
+          System.out.print(str.charAt(i));
+        }
+      }
+  }
+}
