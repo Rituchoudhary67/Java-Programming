@@ -422,3 +422,25 @@ public class Main {
       }
   }
 }
+
+23] Take a string from the input and change lowercase characters to uppercase and uppercase characters to lowercase
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      String oppStr = "";
+      
+      for(int i=0; i<str.length(); i++) {
+        char charVar = str.charAt(i);
+        if(Character.isUpperCase(charVar)) {
+          oppStr += Character.toLowerCase(charVar);
+        } else {
+          oppStr += Character.toUpperCase(charVar);
+        }
+      }
+      System.out.println(oppStr);
+  }
+}
