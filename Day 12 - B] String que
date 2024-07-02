@@ -496,3 +496,5 @@ public class Main {
       }
   }
 }
+
+26] Take a string from the input and print ascii character
