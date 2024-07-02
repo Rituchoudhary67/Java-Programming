@@ -498,3 +498,15 @@ public class Main {
 }
 
 26] Take a string from the input and print ascii character
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      char charVar = sc.next().charAt(0);
+      int ascii = charVar;
+      System.out.println(ascii);
+      
+  }
+}
