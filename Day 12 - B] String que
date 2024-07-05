@@ -559,3 +559,24 @@ public class Main {
   }
 }
 29] Check whether or not the given string is a palindrome
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      String str = sc.nextLine();
+      System.out.println(str);
+      String reverse = "";
+      for(int i=str.length()-1; i>=0; i--) {
+        char varChar = str.charAt(i);
+        reverse = reverse + varChar;
+      }
+      if (str.equals(reverse) == true){
+        System.out.println("true");
+      } else {
+        System.out.println("false");
+      }
+        
+  }
+}
