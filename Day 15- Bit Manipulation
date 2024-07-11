@@ -1,4 +1,5 @@
 Day 15 - Bit Manipulation 
+code Link : https://onecompiler.com/java/42jtd3a47
 
 1] Left shift                                       2] Right Shift
    N << i                                               N >> i
