@@ -39,3 +39,18 @@ public class Main {
       }
   }
 }
+
+2] SET Bit 
+
+Set the 2nd bit(position = 1) of a number n.(n = 0101)
+i] Bit Mask : 1 << i
+ii] Operation : OR
+
+Solution :- i] i = 1
+              1  << 1
+            0001 << 1
+            0010 -- BM
+ii] 0010 OR 0101
+    0111
+
+
