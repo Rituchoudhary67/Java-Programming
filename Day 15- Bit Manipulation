@@ -53,4 +53,13 @@ Solution :- i] i = 1
 ii] 0010 OR 0101
     0111
 
+SET BIT 
+      int n = 5; //0101
+      int pos = 1;
+      int bitMask = 1<<pos;
+      
+      int newNumber = bitMask | n;
+      System.out.println(newNumber);
+
+
 
