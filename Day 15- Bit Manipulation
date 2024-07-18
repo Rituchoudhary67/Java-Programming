@@ -74,5 +74,13 @@ ii] not(BM) => ~(0100) => 1011
     0101  &  1011
     0001
 
+ // 3] CLEAR BIT 
+      int n = 5; // 0101
+      int pos = 3;
+      int bitMask = 1 << pos;
+      int not = ~(bitMask);
+      int newNumber = n & not ;
+      System.out.println(newNumber);
+
 
 
