@@ -83,4 +83,21 @@ ii] not(BM) => ~(0100) => 1011
       System.out.println(newNumber);
 
 
+ 4] UPDATE 
+      Scanner sc = new Scanner(System.in);
+      int oper = sc.nextInt();
+      // oper = 1 --> SET  if oper = 0 --> CLEAR it
+      int n = 5;
+      int pos = 1;
+      
+      int bitMask = 1 << pos;
+      if(oper == 1) {
+        //SET
+        int newNumber = bitMask | n;
+        System.out.println(newNumber);
+      } else {
+        int not = ~(bitMask);
+        int newNumber = n & not ;
+        System.out.println(newNumber);
+      }
 
