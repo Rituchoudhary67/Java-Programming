@@ -61,5 +61,18 @@ SET BIT
       int newNumber = bitMask | n;
       System.out.println(newNumber);
 
+3] CLEAR BIT 
+Clear the 3rd bit (position=2) of a number n.[n=0101]
+
+Bit Mask :- 1 << position
+Operation :- AND with NOT
+
+i] 1 << 2
+  0001 << 2
+  BM :- 0100
+ii] not(BM) => ~(0100) => 1011
+    0101  &  1011
+    0001
+
 
 
