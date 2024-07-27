@@ -1,6 +1,7 @@
 Day 12 - String in Java
 code link : https://onecompiler.com/java/42fwrs384
 1] Compare two string : https://onecompiler.com/java/42fzx4qzg
+
 H.w problems
 1] Take an array of Strings input from the user and find the cumulative(combined) length of all those strings. 
 code link : https://onecompiler.com/java/42garfh4e
@@ -12,7 +13,7 @@ code link : https://onecompiler.com/java/42gsq9m7s
 code link : https://onecompiler.com/java/42gsrns9r
 
 
-// Day 12 - String in java 
+Day 12 - String in java 
 import java.util.*;
 
 public class Strings {
@@ -24,7 +25,7 @@ public class Strings {
     Scanner sc = new Scanner(System.in);
     String fullName = sc.nextLine();
     // note : sc.next() ---> is used for taking single word input
-              // sc.nextLine() ---> is used for taking multiple word input 
+           // sc.nextLine() ---> is used for taking multiple word input 
     System.out.println(fullName);
 
    // 1] concatention (Joining 2 Strings)
