@@ -171,3 +171,55 @@ public class Main {
     
   }
 }
+
+6] Take two arrays, merger them and store it as a third array. Print it out.
+Ex : Input : 1 2 3 4
+             5 6 7 8
+    Output : 1 2 3 4 5 6 7 8
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      int m = sc.nextInt();
+      int arrA[] = new int[n];
+      int arrB[] = new int[m];
+      
+      int arrAB[] = new int[n+m];
+      
+      // input 
+      // for arrA
+      for(int i=0; i<n; i++) {
+        arrA[i] = sc.nextInt();
+      }
+      
+      // for arrB
+      for(int i=0; i<m; i++) {
+        arrB[i] = sc.nextInt();
+      }
+      
+      
+      // output
+      // for arrA
+      for(int i=0; i<n; i++) {
+        arrAB[i] = arrA[i];
+      }
+      //for arrB
+      for(int i=0; i<m; i++) {
+        arrAB[n+i] = arrB[i]; 
+      }
+      
+      //for arrAB
+      for(int i=0; i<n+m; i++) {
+        if(i > 0) {
+          System.out.print("," + arrAB[i]);
+        } else {
+        System.out.print(arrAB[0]);
+        }
+          
+        
+      }
+    }
+}
