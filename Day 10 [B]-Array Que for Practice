@@ -223,3 +223,17 @@ public class Main {
       }
     }
 }
+
+Method 2 : Merge arrays Using arraycopy():
+// Syntax: System.arraycopy(source_array,Starting_Pos_source,destination_array,Starting_pos_dest,length);
+      
+      // copy arrA elements into arrAB
+      System.arraycopy(arrA,0,arrAB,0,n);
+      
+      // copy arrB elements into arrAB
+      System.arraycopy(arrB,0,arrAB,n,m);
+      
+      //printing arrAB
+       System.out.print(Arrays.toString(arrAB));
+      
+      
