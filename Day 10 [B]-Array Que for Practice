@@ -118,3 +118,56 @@ public class Main {
       
   }
 }
+
+5] Take two arrays A,B of same size, multiply corresponding elements, store them in a third array and print it.
+Ex :- Input : 1 2 3 4
+              5 6 7 2
+    Output :  5 12 21 8
+
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     int size = sc.nextInt();
+     
+     int arrA[] = new int[size];
+     int arrB[] = new int[size];
+     int arrAB[] = new int[size];
+     
+     //input for arrA 
+     for(int i=0; i<size;i++) {
+       arrA[i] = sc.nextInt();
+     }
+     
+    // input for arrB
+    for(int i=0; i<size;i++) {
+       arrB[i] = sc.nextInt();
+    }
+     
+    // //this is for my own understanding
+    // //output for arrA
+    // for(int i=0; i<size;i++) {
+    //   System.out.print(arrA[i] + " ");
+    // }
+    // System.out.println();
+     
+    // //output for arrB
+    // for(int i=0; i<size;i++) {
+    //   System.out.print(arrB[i] + " ");
+    // }
+    
+    // System.out.println();
+    
+    //output for arrAB
+    for(int i=0; i<1;i++) {
+      arrAB[i] = arrA[i] * arrB[i];
+      System.out.print(arrAB[0]);
+    }
+      for(int j=1; j<size;j++) {
+        arrAB[j] = arrA[j] * arrB[j];
+        System.out.print("," + arrAB[j]);
+      }
+    
+  }
+}
