@@ -235,5 +235,7 @@ Method 2 : Merge arrays Using arraycopy():
       
       //printing arrAB
        System.out.print(Arrays.toString(arrAB));
-      
+
+7] Take an array with several 0s in it, push all the 0s to the start of the array and print the array.
+
       
