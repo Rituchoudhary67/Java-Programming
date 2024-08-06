@@ -238,4 +238,35 @@ Method 2 : Merge arrays Using arraycopy():
 
 7] Take an array with several 0s in it, push all the 0s to the start of the array and print the array.
 
+Solution :
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     int arr[] = new int[n];
+     int temp = 0;
+     //input of an array
+     for(int i=0; i<n; i++) {
+       arr[i] = sc.nextInt();
+     }
+     
+     //output of an array
+    for(int i=0; i<n; i++) {
+      // System.out.println(arr[i]);
+      if(arr[i] == 0) {
+        System.out.println(arr[i]);
+      }
+    }
+     
+    for(int i=0; i<n; i++) {
+      if(arr[i] !=0) {
+        System.out.println(arr[i]);
+      }
+    }
+    
+  }
+}
+
       
