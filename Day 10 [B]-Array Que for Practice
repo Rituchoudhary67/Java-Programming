@@ -269,4 +269,31 @@ public class Main {
   }
 }
 
-      
+8] Insert a given integer x in the middle of a given array arr.
+Input:
+First line of input contains the integer to be inserted.
+Second line contains the length N of array arr.
+Next N lines of the input contains the elements of the array in which x is to be inserted at index len/2 
+if len is even and (len-1/2) if len is odd.
+Output:
+Array arr after x is inserted at the index mentioned.
+
+Example:
+1) Input: 5
+3 1 2 4
+Output:
+1 5 2 4
+
+Explanation:
+Case 1:
+len = 3. Hence x=5 is inserted at index len-1/2 = 1
+
+2] Input: 10
+4 1 2 3 4
+Output:
+1 2 10 3 4
+
+Case 2:
+len = 2. Hence x=10 is inserted at index len/2 = 1
+
+
