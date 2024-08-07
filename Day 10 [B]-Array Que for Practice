@@ -296,4 +296,37 @@ Output:
 Case 2:
 len = 2. Hence x=10 is inserted at index len/2 = 1
 
+Solution :
+import java.util.*;
 
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int x = sc.nextInt();  // input contains the integer to be inserted.
+      int n = sc.nextInt();  // size of an array
+      int arr[] = new int[n];
+      int pos = 0;
+      
+      //input of an array
+      for(int i=0; i<n; i++) {
+        arr[i] = sc.nextInt();
+      }
+      
+      //finding the value of pos weather it is even or odd 
+        if(n % 2 == 0) {
+           pos = n / 2;
+        } else {
+           pos = (n-1)/2;
+        }
+        // System.out.println(pos);
+      
+      //output of an array
+      for(int i=n-1; i>=pos; i--) {
+       
+        
+      }
+      
+     
+      
+  }
+}
