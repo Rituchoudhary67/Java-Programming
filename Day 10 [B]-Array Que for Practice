@@ -321,12 +321,11 @@ public class Main {
         // System.out.println(pos);
       
       //output of an array
-      for(int i=n-1; i>=pos; i--) {
-       
+      for(int i=i; i>n+1; i++) {
+       arr[pos] = arr[i];
         
       }
       
-     
-      
+    
   }
 }
