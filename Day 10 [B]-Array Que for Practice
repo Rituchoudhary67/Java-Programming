@@ -337,3 +337,32 @@ public class Main {
 }
 
 
+9] Take an array, delete the element at the second index and return the resultant array.
+
+Solution :- 
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();  //len of an array
+      int arr[] = new int[n];
+      int index = 2;
+      
+      //input of an array 
+      for(int i=0; i<n;i++) {
+        arr[i] = sc.nextInt();
+      }
+      
+      //logic of an array
+      for(int i=index;i<n-1;i++) {
+        arr[i] = arr[i+1];
+      }
+      
+      //output of an array 
+      for(int i=0;i<n-1;i++) {
+        System.out.println(arr[i]);
+      }
+  }
+}
+
