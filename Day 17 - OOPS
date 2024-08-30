@@ -1,1 +1,61 @@
+code link :- https://onecompiler.com/java/42qnyjp7w
+
+
+1] what is class and object ?
+
+Class :- Class is a user defined data type which defines its property and its function 
+IMW :- we used class to stored its property like lets say we create a class name pen and its property are link its color , type , brand 
+       so, to write all this we create class Pen {} and its have some functionality like we used pen to write so, we create write function as explain in example.
+
+import java.util.*;
+
+public class Oops {
+  public static void main(String args[]) {
+    // Pen pen1 = new Pen();
+    // pen1.color = "red";
+    // pen1.type = "gel";
+    
+    // Pen pen2 = new Pen();
+    // pen2.color = "black";
+    // pen2.type = "ball";
+    
+    // pen1.write();
+    // pen1.printColor();
+    // pen2.printColor();
+    
+    Student s1 = new Student();
+    s1.name = "ritu";
+    s1.age = 22;
+    
+    s1.printInfo();
+    
+  }
+}
+
+class Student {
+  String name;
+  int age;
+  
+  public void printInfo() {
+    System.out.println(this.name);
+    System.out.println(this.age);
+  }
+}
+
+
+// class Pen {
+//   String color;
+//   String type;   // ballpen,gelpen
+  
+//   public void write() {
+//     System.out.println("Write something");
+//   }
+  
+//   public void printColor() {
+//     System.out.println(this.color);
+//   }
+// }
+
+
+
 
