@@ -1,1 +1,46 @@
+1] Bubble Sort ->(largest element at end)
+if arr[i] > arr[i+1] swap them. 
+To place the element in their respective position , we have to do the following operation n-1 then.
+
+import java.util.*;
+
+public class Main {
+  
+  //for printing an array
+  public static void PrintArr(int arr[]) {
+   for(int i=0; i<arr.length; i++) {
+     System.out.print(arr[i] + " ");
+   }    
+   System.out.println();
+  }
+
+    public static void main(String[] args) {     
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     //initalization of an array 
+     int arr[] = new int[n];
+     
+     //input of an array 
+     for(int i=0; i<n;i++) {
+       arr[i] = sc.nextInt();
+     }
+     
+     //logic of bubble sort 
+     for(int i=0; i<n-1; i++) {
+       //inner loop 
+       for(int j=0; j<n-i-1; j++) {
+         if(arr[j] > arr[j+1]) {
+           //swaping 
+           int temp = arr[j];
+           arr[j] = arr[j+1];
+           arr[j+1] = temp;
+         }
+       
+       }
+     }
+    PrintArr(arr);
+     
+  }
+}
+
 
