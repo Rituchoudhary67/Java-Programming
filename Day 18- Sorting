@@ -64,3 +64,51 @@ step 9 : stop
 step 1 : start
 step 2 : initalization i = 1 to n 
 step 3 : return arr[];
+
+
+2] //SELECTION SORT ---smallest at starting index
+IDEA : The inner loop selects the minimum elements in the unsorted array and places the elements in increasing order
+
+Time Complexity : O(n^2)
+
+import java.util.*;
+
+public class Main {
+  
+  //creating printing function
+  public static void PrintArray(int arr[]) {
+    for(int i=0; i<arr.length; i++) {
+      System.out.print(arr[i] + " ");
+    }
+    System.out.println();
+  }
+  
+  //main function 
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+     int n = sc.nextInt();
+     //initalization of an array 
+     int arr[] = new int[n];
+     
+     //input of an array 
+     for(int i=0;i<n;i++) {
+       arr[i] = sc.nextInt();  
+     }
+     
+     //logic of Selection sort 
+     for(int i=0; i<n; i++) {
+       int smallest = i;
+       for(int j=i+1; j<n; j++) {
+         if(arr[j] < arr[smallest]) {
+           smallest = j;
+         }
+       }
+       int temp = arr[smallest];
+       arr[smallest] = arr[i];
+       arr[i] = temp;
+     }
+     
+     //calling printing function 
+     PrintArray(arr);
+   }
+}
