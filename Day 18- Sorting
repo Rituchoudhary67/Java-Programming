@@ -134,3 +134,50 @@ step 10 : stop
 step 1 : start
 step 2 : initialization i = 1 till i<n 
 step 3 : return arr[i];
+
+
+3] //INSERTION SORT 
+code link : https://onecompiler.com/java/42t354jjy
+IDEA : Take an element from the unsorted array , place it in its corresponding position in the sorted part
+       and shift the elements accordingly
+
+Time Complexity : O(n^2);
+
+import java.util.*;
+
+public class Main {
+   
+   //printing function 
+   public static void PrintArr(int arr[]) {
+     for(int i=0; i<arr.length; i++) {
+       System.out.print(arr[i] + " ");
+     }
+     System.out.println();
+   }
+   
+    public static void main(String[] args) {
+      Scanner sc = new Scanner(System.in);
+      int n = sc.nextInt();
+      
+      //initialization of an array 
+      int arr[] = new int[n];
+      
+      //input of an array 
+      for(int i=0; i<n; i++) {
+        arr[i] = sc.nextInt();
+      }
+      
+      //logic of insertion sort 
+      for(int i=0; i<n; i++) {
+        int current = arr[i];
+        int j = i-1;
+        while(j>=0 && arr[j] > current) {
+          //swapping 
+          arr[j+1] = arr[j];
+          j--;
+        }
+        arr[j+1] = current;
+      }
+      PrintArr(arr);
+  }
+}
