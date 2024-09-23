@@ -67,6 +67,8 @@ step 3 : return arr[];
 
 
 2] //SELECTION SORT ---smallest at starting index
+code link : https://onecompiler.com/java/42t32bmxd
+
 IDEA : The inner loop selects the minimum elements in the unsorted array and places the elements in increasing order
 
 Time Complexity : O(n^2)
