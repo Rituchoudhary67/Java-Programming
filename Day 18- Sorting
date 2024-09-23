@@ -181,3 +181,21 @@ public class Main {
       PrintArr(arr);
   }
 }
+
+//Algorithm : SelectionSort(int arr[],n,current)
+step 1 : start
+step 2 : input an array
+step 3 : initialization i=1 to n and repeat steps 4 to 7
+step 4 : set current = arr[i] and j = i-1
+step 5 : repeat step 6 while j>=0 and arr[j] > current
+step 6 : //swapping 
+          arr[j+1] = arr[j]
+          j--
+step 7 : set arr[j+1] = current 
+step 8 : call PrintArray(arr) function 
+step 9 : stop
+
+//Algorithm : PrintArray(int arr[],n)
+step 1 : start 
+step 2 : initialization i=0 to n and repeat step 3 
+step 3 : return arr[i]
