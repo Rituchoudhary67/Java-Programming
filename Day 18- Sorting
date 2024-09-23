@@ -112,3 +112,23 @@ public class Main {
      PrintArray(arr);
    }
 }
+
+//Algorithm : SelectionSort(int arr[],n,temp,smallest)
+step 1 : start
+step 2 : input of an array 
+step 3 : initialization i = 1
+step 4 : repeat step 5 to step 8 until i<n
+step 5 : set smallest = i
+step 6 : set j=i+1 and repeat step 7 until j<n
+step 7 : check arr[j] < arr[smallest] then smallest = j
+step 8 : //swaping 
+          set temp = arr[smallest]
+          arr[smallest] = arr[i]
+          arr[i] = temp
+step 9 : call PrintArray(arr) function 
+step 10 : stop
+
+//Algorithm : PrintArray(int arr[],n)
+step 1 : start
+step 2 : initialization i = 1 till i<n 
+step 3 : return arr[i];
