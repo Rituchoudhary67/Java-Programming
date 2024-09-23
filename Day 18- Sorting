@@ -44,3 +44,21 @@ public class Main {
 }
 
 
+//Algorithm : BubbleSort(arr[],temp,n) 
+step 1 : Start
+step 2 : input an array 
+step 3 : initialization i=1
+step 4 : repeat step 5 to step 7 until i < n
+step 5 : set j = 1
+step 6 : repeat step 7 until j<n-i
+step 7 : if arr[j] > arr[j+1] then do swaping 
+          temp = arr[j]
+          arr[j] = arr[j+1]
+          arr[j+1] = temp
+step 8 : call PrintArr(arr) function
+step 9 : stop
+
+//Algorithm : PrintArr(arr)
+step 1 : start
+step 2 : initalization i = 1 to n 
+step 3 : return arr[];
